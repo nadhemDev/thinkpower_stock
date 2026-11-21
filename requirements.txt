@@ -1,0 +1,7 @@
+customtkinter
+openpyxl
+fpdf2
+pyinstaller
+darkdetect
+pillow
+et_xmlfile
