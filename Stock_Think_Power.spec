@@ -51,6 +51,10 @@ hiddenimports += [
     'fpdf',
     'fpdf.fonts',
     'fpdf.data',
+    'fpdf.sign',
+    'fpdf.image_parsing',
+    'unittest',
+    'unittest.mock',
     'darkdetect',
     'darkdetect._windows_detect',
     'PIL',
@@ -68,8 +72,7 @@ a = Analysis(
     hooksconfig={},
     runtime_hooks=[],
     excludes=[
-        'matplotlib', 'scipy', 'numpy', 'pandas', 'IPython', 'notebook', 'pytest',
-        'cryptography', 'cffi', 'lxml', 'sqlite3', 'unittest'
+        'matplotlib', 'scipy', 'pandas', 'IPython', 'notebook', 'pytest'
     ],
     noarchive=False,
     optimize=0,
