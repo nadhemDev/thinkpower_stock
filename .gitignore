@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller build files
+build/
+*.spec.bak
+
+# Temp & logs
+*.tmp
+*.log
+erreur_crash.log
+
+# Local temporary backups
+backups/Base_*.xlsx
+backups/*.db
